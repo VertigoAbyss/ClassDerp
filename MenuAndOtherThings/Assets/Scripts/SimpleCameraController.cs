@@ -3,11 +3,13 @@ using UnityEngine.InputSystem;
 #endif
 
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace UnityTemplateProjects
 {
     public class SimpleCameraController : MonoBehaviour
     {
+
         class CameraState
         {
             public float yaw;
@@ -183,6 +185,7 @@ namespace UnityTemplateProjects
             {
                 return;
             }
+
 
 
             // Hide and lock cursor when right mouse button pressed
